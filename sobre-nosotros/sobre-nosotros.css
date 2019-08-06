@@ -114,6 +114,10 @@ a{
         
     }
     
+    img{
+        width: 50%;
+    }
+    
     .img-perro{
         width: 80%;
         margin-left: 2%;
