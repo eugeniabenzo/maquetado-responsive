@@ -1,0 +1,181 @@
+body{
+    font-family: 'Roboto', sans-serif;  
+    width: 100%;
+    margin: 0px
+}
+
+
+.barrainicio{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    background:whitesmoke;
+    font-size: 20px;
+    
+    
+}
+
+.barrainicio div{
+    margin: 20px;
+}
+a{
+    color: #5CA7EE;
+    text-decoration:aquamarine ;
+}
+a:hover{
+    height: 20px;
+    color: #5CA7EE;
+    text-decoration: rgb(86, 151, 129);
+}
+
+.descp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 25%;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    font-size: large; 
+    color: #5CA7EE;
+
+}
+
+p .descp{
+    width: 40%;
+}
+.img{
+    margin-top: 0%;
+}
+.encabezado{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+    background-color: #5CA7EE;
+    color: antiquewhite;
+
+}
+
+ .text, .text2, .text3{
+    text-align: center;
+    width: 45%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 0%;
+    margin-bottom: 0%
+    
+}
+.text3{
+  margin-left: 10%;
+   
+}
+
+.encabezado2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #5CA7EE;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 40%;
+    
+}
+
+    
+    @media only screen and (max-width:768px) {
+        body{
+            width: 100%;
+            margin: 0%;
+        }
+    
+       .barrainicio{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 34%;
+    
+}
+        
+        .descp{
+            display: flex;
+            align-items: center;
+            align-content: center;
+            font-size: medium; 
+            height: auto;
+            width: 100%;
+            margin-bottom:2%;
+            margin-left: 0%;
+            text-align: center;
+            
+            
+        }
+  
+        .encabezado{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: auto;
+          
+        }
+    
+        .img{
+           display: flex;
+           justify-content: center;
+            width: 100%;
+            height: 30%;
+            margin-top: 1%;
+        }
+        .imagen2{
+            
+            width: 100%;
+            
+        }
+        
+        .encabezado2{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+           
+            
+               
+        }
+        
+        .img2{
+            display: flex;
+            justify-content: flex-start;
+            width: 100%;
+         
+            
+        }
+    
+        .text2, .text3{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: auto;
+            
+            
+               
+        }
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+   
