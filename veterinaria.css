@@ -1,0 +1,222 @@
+body{
+    width:100% ;
+    margin: 0px;
+}
+.barrainicio{
+    font-family: 'Roboto', sans-serif;  
+    display: flex;
+    justify-content: flex-end;
+    height: 80px;
+    background: whitesmoke;
+    font-size: 20px;
+    
+    
+}
+
+.barrainicio div{
+    margin: 20px;
+}
+a:link{
+   
+    text-decoration: none;
+
+}
+a{
+    color: #5CA7EE;
+    
+}
+
+.portada{
+    font-family: 'Roboto', sans-serif;  
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;    
+    background-image: url(../veterinaria/img/portada3.png);
+    background-size:     cover; 
+    background-repeat:   no-repeat;
+    background-position: center center; 
+    text-align: center;
+    height:50%;
+    width: 100%;
+    color: #5CA7EE
+}
+ .sdoencabezado{
+    font-family: 'Roboto', sans-serif;  
+    display:flex;
+    justify-content:space-around;
+    align-content: baseline;
+    width: 100%;
+    background: #5CA7EE;
+    color: antiquewhite
+}
+.sdoencabezado div{
+text-align: center;
+margin-top: 20px;
+}
+.icon{
+    text-align: center;
+    }
+.textclinica{
+    font-family: 'Roboto', sans-serif;  
+    text-align: center;
+    margin-top: 10px;
+    font-size: xx-large;
+    color: #5CA7EE;
+    background:whitesmoke;
+    
+}
+.LaClinica{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.numeros{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.tituloserv{
+    font-family: 'Roboto', sans-serif;  
+    margin-top: 30px;
+    text-align: center;
+    font-size: xx-large;
+    color: #5CA7EE;
+    background:whitesmoke;
+}
+.practicas{
+    font-family: 'Roboto', sans-serif;  
+    display: flex;
+    justify-content: space-around;
+    color: #5CA7EE;
+   
+}
+.practicas div{
+    margin-top: 20px;
+    margin-left: 120px;
+    margin-right: 120px;
+    text-align: center;
+}
+.Desccontacto{
+    font-family: 'Roboto', sans-serif;  
+    text-align: center;
+    
+    height: 200px;
+    width: 100%;
+    margin-top: 2%;
+    color: white;
+    background: #5CA7EE;
+    
+}
+
+ 
+  .contacto{
+    color: #5CA7EE;
+    background:powderblue;
+    padding: 7px 20px;
+    font-size: 18px;
+    border-radius: 100px;
+    margin-top: 0px;
+   
+  }
+     
+
+  
+.text{
+
+    font-family: 'Roboto', sans-serif; 
+    font-size: xx-large; 
+    margin-bottom: 5%;
+    
+}
+
+.fin{
+    font-family: 'Roboto', sans-serif;     
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top:40px;
+}
+@media only screen and  (max-width:768px) {
+    body{
+        width: 100%;
+        margin: 0;
+    }
+ 
+.barrainicio{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 34%;
+    
+}
+.portada{
+    
+    height: 50%;
+    font-size: large;
+}
+    
+    .sdoencabezado{
+       
+        display: flex;
+        flex-direction: column;
+        font-size: smaller;
+    }
+
+
+.img1 {
+    display:  none;
+
+}
+.img4 {
+    display:  none;
+
+}
+
+ 
+    .numeros{
+      display: none;
+    }
+    .practicas{
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+      font-size: smaller;
+      width: 100%;
+      
+     
+     
+             
+    }
+    
+    div .text{
+     margin-top: 1%;
+     height: 0%;
+     font-size: large;
+}
+   
+.contacto{
+    margin-top: 10%;
+    ;
+}
+.Desccontacto{
+    height: auto;
+}
+
+.fin{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    font-size: smaller;
+    width: 80%;
+    margin-top: 1%;
+    margin-left: 15%
+}
+
+.copy{
+    width: 10%;
+    height: 5%;
+    margin-right: 8%;
+}
+}
