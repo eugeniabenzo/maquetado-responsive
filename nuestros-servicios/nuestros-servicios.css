@@ -1,6 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;  
-    width: 100%;
+    width: 96%;
     margin: 0px
 }
 
@@ -38,7 +38,6 @@ a:hover{
     width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
-    
     font-size: large; 
     color: #5CA7EE;
 
@@ -116,6 +115,9 @@ p .descp{
             
             
         }
+        .imgcons{
+            width: 80%;
+        }
   
         .encabezado{
             display: flex;
@@ -128,7 +130,7 @@ p .descp{
         .img{
            display: flex;
            justify-content: center;
-            width: 100%;
+            width: 90vh;
             height: 30%;
             margin-top: 1%;
         }
@@ -151,7 +153,7 @@ p .descp{
         .img2{
             display: flex;
             justify-content: flex-start;
-            width: 100%;
+            width: 90%;
          
             
         }

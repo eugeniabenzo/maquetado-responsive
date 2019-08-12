@@ -147,19 +147,20 @@ margin-top: 20px;
         margin: 0;
     }
  
-.barrainicio{
+    .barrainicio{
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 34%;
     
-}
-.portada{
+    }
+    .portada{
     
     height: 50%;
     font-size: large;
-}
+    }
+
     
     .sdoencabezado{
        
@@ -169,14 +170,15 @@ margin-top: 20px;
     }
 
 
-.img1 {
+    .img1 {
     display:  none;
 
-}
-.img4 {
+    }
+
+    .img4 {
     display:  none;
 
-}
+    }
     .numeros{
       display: none;
     }
@@ -185,19 +187,19 @@ margin-top: 20px;
         align-content: flex-start;
         flex-wrap: wrap;
         font-size:x-small;
-        width: 100%;
+        width: 98%;
         margin-left: 0%;
         margin-right: 0%
              
     }
     div .Derm {
-        width: 48%;
+        width: 41%;
         margin: 1%;
     }
     
     div .Hosp{
         margin: 0%;
-        width: 48%;
+        width: 40%;
     }
 
     div .lab{
@@ -210,21 +212,33 @@ margin-top: 20px;
      margin-top: 1%;
      height: 0%;
      font-size: large;
-}
+    }
+   
+    .img2{
+       display: none;
+    }
+    .img-3{
+        display: flex;
+        justify-content: center;
+        margin-left: 0%;
+        width: 40vh;
+        
+    }
+    
     
     .ancho{
       margin-left: 4%;
     }
    
-.contacto{
+    .contacto{
     margin-top: 10%;
-    ;
-}
-.Desccontacto{
+    
+    }
+    .Desccontacto{
     height: auto;
-}
+    }
 
-.fin{
+    .fin{
     display: flex;
     justify-content: space-around;
     align-items: baseline;
@@ -234,9 +248,9 @@ margin-top: 20px;
     margin-left: 15%
 }
 
-.copy{
+    .copy{
     width: 10%;
     height: 5%;
     margin-right: 8%;
-}
+    }
 }
