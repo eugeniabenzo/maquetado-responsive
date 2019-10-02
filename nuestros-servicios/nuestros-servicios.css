@@ -1,6 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;  
-    width: 96%;
+    width: 100%;
     margin: 0px
 }
 
@@ -87,7 +87,7 @@ p .descp{
 }
 
     
-    @media only screen and (max-width:768px) {
+    @media only screen and (max-width:1024px) {
         body{
             width: 100%;
             margin: 0%;
@@ -99,6 +99,7 @@ p .descp{
         flex-direction: column;
         align-items: center;
         height: 34%;
+        margin: 0%
     
 }
         
